@@ -11,7 +11,7 @@
 <img width="311" alt="新規作成" src="https://user-images.githubusercontent.com/28669526/70611403-7c7cd400-1c48-11ea-8dcb-aea0a2aa6824.png">
 
 3. テンプレート選択画面にて、`Cloud`カテゴリより任意のAlibaba Cloudテンプレート（`cloud/aliyun_xxx.xml`）を選択し、`Create`ボタンを押下します。  
-※空のテンプレートから作成する場合でも、`blankDiagram`ではなく`cloud/aliyun_blank_template.xml`を選択してください。
+※空のテンプレートから作成する場合でも、`blankDiagram`ではなく`cloud/aliyun_blank_template.xml`を選択してください。  
 <img width="518" alt="テンプレート選択" src="https://user-images.githubusercontent.com/28669526/70611553-b948cb00-1c48-11ea-93b8-670b48ad3043.png">
 
 4. 左メニューにAlibaba Cloudのアイコンが表示されるため、Let's draw!!
