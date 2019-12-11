@@ -1,0 +1,5 @@
+2019/12/11 Web
+  - drawio配下にlibs/aliyunフォルダを新規作成。カスタムライブラリファイル（Aliyun_xxx.xml）を追加
+  - drawio/src/main/webapp/templates/cloud配下に、テンプレートファイル（aliyun_xxx.xml, aliyun_xxx.png）を追加
+  - drawio/src/main/webapp/templates/index.xmlを編集。カスタムライブラリとテンプレートを追加
+  - drawio/src/main/webapp/index.htmlの49行目付近を編集。オフラインを強制
