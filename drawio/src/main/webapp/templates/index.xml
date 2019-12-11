@@ -1,4 +1,16 @@
 <templates>
+<clibs name="aliyun">
+  <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_General.xml</add>
+  <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_Compute.xml</add>
+  <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_Storage.xml</add>
+  <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_Network.xml</add>
+  <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_Security.xml</add>
+  <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_Database.xml</add>
+  <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_Domain_Hosting.xml</add>
+  <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_Application_Service.xml</add>
+  <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_Bigdata_AI.xml</add>  
+  <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_Management.xml</add>
+</clibs>
 <clibs name="azure">
   <add>Uhttps://jgraph.github.io/drawio-libs/libs/integration/additional_or_support.xml</add>
   <add>Uhttps://jgraph.github.io/drawio-libs/libs/integration/ai_machine_learning.xml</add>
@@ -63,6 +75,10 @@
 <template url="charts/org_chart_1.xml" libs="general"/>
 <template url="charts/org_chart_2.xml" libs="general"/>
 <template url="charts/work_breakdown_structure.xml" libs="general"/>
+<template url="cloud/aliyun_blank_template.xml" libs="general" clibs="aliyun"/>
+<template url="cloud/aliyun_basic_web.xml" libs="general" clibs="aliyun"/>
+<template url="cloud/aliyun_cloudnative_migration.xml" libs="general" clibs="aliyun"/>
+<template url="cloud/aliyun_enterprise_e-commerce.xml" libs="general" clibs="aliyun"/>
 <template url="cloud/aws_1.xml" libs="general;aws4"/>
 <template url="cloud/aws_2.xml" libs="general;aws4"/>
 <template url="cloud/aws_3.xml" libs="general;aws4"/>
