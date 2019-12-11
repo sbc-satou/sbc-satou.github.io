@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## 概要
+[draw.io](https://www.draw.io)をAlibaba Cloudに対応させたものです。  
 
-You can use the [editor on GitHub](https://github.com/sbc-satou/sbc-satou.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## ライセンス
+本ツールは[draw.io](https://github.com/jgraph/drawio)を元に作成されています。  
+ライセンスは[Apache License2.0](http://www.apache.org/licenses/LICENSE-2.0)に準拠します。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 使い方
+1. ブラウザで[index.html](https://sbc-satou.github.io/drawio/src/main/webapp/index.html)にアクセスします。
+2. 既存のダイアグラムを開くか否かを聞かれるので、`Create New Diagram`（新規作成）を選択します。
+<img width="311" alt="新規作成" src="https://user-images.githubusercontent.com/28669526/70611403-7c7cd400-1c48-11ea-8dcb-aea0a2aa6824.png">
 
-### Markdown
+3. テンプレート選択画面にて、`Cloud`カテゴリより任意のAlibaba Cloudテンプレート（`cloud/aliyun_xxx.xml`）を選択し、`Create`ボタンを押下します。  
+※空のテンプレートから作成する場合でも、`blankDiagram`ではなく`cloud/aliyun_blank_template.xml`を選択してください。
+<img width="518" alt="テンプレート選択" src="https://user-images.githubusercontent.com/28669526/70611553-b948cb00-1c48-11ea-93b8-670b48ad3043.png">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+4. 左メニューにAlibaba Cloudのアイコンが表示されるため、Let's draw!!
+<img width="1209" alt="Let's draw!!" src="https://user-images.githubusercontent.com/28669526/70611615-cfef2200-1c48-11ea-91e4-9dd0dd9b7f94.png">
 
-```markdown
-Syntax highlighted code block
+## 注意点
+- Webサイトの公開に際しては、`Github`の`Github Pages`機能を用いてホスティングしています。  
+そのため、オンライン機能（Google Drive連携/Github連携等）を制限しています。
+- 上記手順でAlibaba Cloudのテンプレート指定した場合にのみ、Alibaba CloudのShapes（アイコン集）が表示されます。  
+他のテンプレートを指定した場合や、`＋More Shapes`からはAlibaba CloudのShapesを読み込むことは出来ません。
+- 本ツールは予告なく仕様変更、または公開を終了する可能性があります。
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sbc-satou/sbc-satou.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 参考
+- 元のソース（draw.io）:https://github.com/jgraph/drawio
+- icon素材：https://www.iconfont.cn/plus/user/detail?&uid=41718
+- 参考サイト：https://qiita.com/ohiro18/items/02c5da6d6590dfe3ed0d
