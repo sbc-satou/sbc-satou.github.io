@@ -9,6 +9,7 @@
   <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_Domain_Hosting.xml</add>
   <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_Application_Service.xml</add>
   <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_Bigdata_AI.xml</add>  
+  <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_IoT.xml</add>
   <add>Uhttps://sbc-satou.github.io/drawio/libs/aliyun/Aliyun_Management.xml</add>
 </clibs>
 <clibs name="azure">
